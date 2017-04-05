@@ -1,0 +1,715 @@
+body {
+    margin:0px;
+    padding:0px;
+}
+
+@font-face {
+    font-family:Montserrat;
+    src: url(fonts/Montserrat.ttf);
+}
+
+@font-face {
+    font-family:LeckerliOne;
+    src: url(fonts/LeckerliOne.ttf);
+}
+
+@font-face {
+    font-family:Lato-Regular;
+    src: url(fonts/Lato-Regular.ttf);
+}
+
+
+/*_____FIRSTPAGE_____*/
+
+
+#firstpage {
+    background:url('img/bg.jpg');
+    background-size:cover;
+    background-position:center center;
+    height:auto;
+}
+
+nav.navbar {
+    background:transparent;
+    border:none;
+}
+
+.navbar-header a.navbar-brand {
+    color:white;
+    font-family:Montserrat;
+    font-size:28px;
+}
+
+.navbar-header a.navbar-brand:hover {
+    color:#007cf5;
+    transition:color 1s;
+}
+
+
+.collapse ul.navbar-right li a {
+    color:white;
+    text-transform:uppercase;
+    font-weight:bold;
+}
+
+.collapse ul.navbar-right li a:hover {
+    color:white;
+    border-top:5px solid #0081ff;
+    transition:0.3s;
+}
+
+h3 {
+    color:white;
+    font-family:LeckerliOne;
+}
+
+h1 {
+    color:white;
+    font-family:Montserrat;
+}
+
+h4 {
+    color:white;
+    font-family:Montserrat;
+}
+
+p {
+    color:#d5d5d5;
+    font-family:Lato-Regular;
+    margin-top:50px;
+}
+
+.row button {
+    border-radius:20px;
+    background:#00aeed;
+    border:none;
+    padding:2px 12px;
+    color:white;
+    margin-top:50px;
+    margin-left:20px;
+}
+
+#firstpage .row button:hover {
+    background:#007cf5;
+    transition:0.6s;
+    padding:4px 14px;
+    font-size:1.2em;
+    
+}
+
+#firstpage .row {
+    margin-top:85px;
+}
+
+#firstpage .col-md-6:first-child {
+    margin-top:100px;
+}
+
+#firstpage img {
+    width:100%;
+    padding-bottom:20px;
+}
+
+
+/*_____WHO_____*/
+
+
+#who {
+    background:#0081ff;
+    padding-bottom:50px;
+    padding:100px 0px;
+    height:auto;
+    position:relative;
+}
+
+#who h4 {
+    font-size:26px;
+}
+
+#who h3 {
+    font-size:30px;
+    margin-bottom:30px;
+}
+
+#who p {
+    margin-top:18px;
+    color:white;
+    font-size:16px;
+}
+
+#who button {
+    background:#3b4374;
+}
+
+#who button:hover {
+    background:rgba(0,0,0,0.5);
+    transition:0.6s;
+    padding:4px 14px;
+    font-size:1.2em; 
+}
+
+#who .col-md-7 {
+    margin-top:70px;
+}
+
+
+/*_____SERVICES_____*/
+
+
+#services {
+    background:#007af3;
+    padding-bottom:130px;
+}
+
+#services .col-md-12 {
+    text-align:center; 
+    margin-top:120px;
+}
+
+#services h6 {
+    font-size:20px;
+    font-family:Lato-Regular;
+    color:white;
+}
+
+#services p {
+    font-family:Lato-Regular;
+    color:white;
+}
+
+#services .container:nth-child(2) {
+    margin-top:70px;
+}
+
+#services .col-md-10 {
+    padding-left:36px;
+}
+
+
+/*_____PROFILE_____*/
+
+ .box {
+    box-sizing:border-box;
+    overflow:hidden;
+}
+
+#profile h4 {
+    font-size:28px;
+    font-family:LeckerliOne;
+    color:#575757;
+    text-align:center;
+    padding-top:120px;
+}
+
+#profile img {
+    width:100%;
+    height:100%;
+}
+
+#profile img:hover {
+    transform:scale(1.3);
+    transition:1s;
+    cursor:pointer;
+    opacity:0.7;
+}
+
+#profile h5 {
+    font-size:28px;
+    font-family:Montserrat;
+    color:black;
+    text-align:center;
+    padding-bottom:66px;
+}
+
+#profile [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+
+
+
+
+/*_____CLIENTS_____*/
+
+
+#clients {
+    background:url('img/clientsbg.jpg');
+    background-size:cover;
+    height:auto;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-align:center;
+}
+
+#clients .row {
+    padding-bottom:160px;
+}
+
+#clients h5 {
+    font-size:28px;
+    font-family:LeckerliOne;
+    color:white;
+    margin-top:125px;
+}
+
+#clients h4 {
+    font-size:28px;
+    font-family:Montserrat;
+    color:white;
+}
+
+#clients p {
+    font-family:Lato-Regular;  
+    color:white;
+    font-size:16px;
+}
+
+#clients .col-md-4 {
+    margin-top:110px;
+}
+
+
+/*_____BLOG_____*/
+
+
+#blog [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+.one {
+    height:232px;
+}
+
+#blog .one h3 {
+    color:black;
+}
+
+#blog .one p {
+    color:#bababa;
+}
+
+.two {
+    background:#007ef9;
+    height:232px;
+}
+
+#blog .two p, #blog .two h6 {
+    color:white;
+    font-family:Lato-Regular;
+    font-weight:bold;
+    text-align:center;
+}
+
+#blog .two p {
+    margin:50px 40px;       
+}
+
+.three {
+    background:#eaeaea; 
+    height:232px;
+    margin-top:28px;
+}
+
+#blog .three h6, #blog .three h3 {
+    color:#353535;    
+}
+
+.four {
+    background:black;  
+    height:232px;
+    margin-top:28px;
+}
+
+#blog .five h3 {
+    margin-top:200px;
+}
+
+
+.five {
+    background:url('img/blog.jpg');
+    background-size:cover;
+    height:464px;
+}
+
+.six {
+    background:#e91d62;  
+    height:232px;
+    margin-top:28px;
+}
+
+#blog h5 {
+    font-size:28px;
+    font-family:LeckerliOne;
+    color:#575757;       
+}
+
+#blog h3 {
+    font-size:32px;
+    font-family:Montserrat;
+    color:white; 
+    text-align:center;
+}
+
+#blog h6 {
+    text-align:center;
+    font-weight:bold;
+    color:white;
+    margin-top:35px;
+}
+
+#blog h6, #blog p {
+    font-size:16px;
+    text-align:center;
+    font-weight:bold;
+    color:white;
+}
+
+#blog .container {
+    margin-top:130px;
+}
+
+#blog .col-md-6:first-child {
+    padding-right:15px !important;
+}
+
+#blog .col-md-6:nth-child(2) {
+    padding-left:15px !important;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover {
+    cursor:pointer;
+}
+
+/*_____CONTACT_____*/
+
+
+#contact {
+    background:url('img/contactbg.jpg');
+    background-size:cover;
+    height:auto;
+    margin-top:160px;
+}
+
+#contact .row {
+    margin-top:110px;
+}
+
+#contact h5 {
+    font-size:28px;
+    font-family:LeckerliOne;
+    color:white;
+}
+
+#contact .col-md-4 {
+    text-align:center;
+}
+
+#contact h3 {
+    font-size:32px;
+    font-family:Montserrat;
+    color:white;
+    margin-bottom:75px; 
+}
+
+#contact img {
+    margin-bottom:58px;
+}
+
+#contact h6, #contact p {
+    margin:0px;
+    padding:0px;
+}
+
+#contact h6, #contact p {
+    font-family:Lato-Regular;
+    color:white;
+    font-size:16px;
+    text-align:left;
+}
+
+#contact h6 {
+    font-weight:bold;
+    margin-bottom:5px;
+}
+
+#contact .email, #contact .phone, #contact .adress {
+    height:105px;
+}
+
+#contact .adress {
+    margin-top:7px;
+}
+
+#contact #touch .row {
+    margin-top:30px;
+}
+
+#contact input {
+    background:#2b2b2b;
+    border:1px solid #2b2b2b;
+    border-radius:20px;
+    height:30px;
+    outline: none;
+    width:100%;
+    color:white;
+    font-family:Lato-Regular;
+}
+
+#contact input:hover {
+    border:1px solid red;
+}
+
+#touch {
+    margin-top:41px;
+}
+
+#contact .message input {
+    height:77px;
+}
+
+#contact button {
+    background:#0280f9;
+    margin-left:164px;
+    width:100px;
+    height:30px;
+}
+
+#contact button:hover {
+    background:#3b4374;
+    transition:0.6s;
+    padding:4px 14px;
+    font-size:1.2em;
+}
+
+#contact .profile .col-md-12 {
+    text-align:center;
+}
+
+#contact .profile img {
+    margin-left:30px;
+}
+
+#contact .profile img:first-child {
+    margin-left:0px;
+}
+
+#contact .profile img:hover {
+    cursor:pointer;
+    animation:rotate 4s linear infinite;
+}
+
+@keyframes rotate { 
+    100% { transform: rotate(360deg);
+        transform:rotate(360deg); 
+    } 
+}
+
+
+/*_____<>R<>W<>D<>_____*/
+
+
+/*_____FIRSTPAGE_____*/
+
+
+@media only screen and (max-width:991px)  {
+
+#firstpage .col-md-6:first-child {
+    margin-top:0px;
+    }
+    
+#firstpage .col-md-6:nth-child(2) {
+    text-align:center;
+    margin-top:20px;
+    }
+    
+#firstpage .row {
+    margin-top:40px;
+    }
+    
+#firstpage img {
+    width:50%;
+    }
+}
+
+@media only screen and (max-width:550px)  {
+    
+#firstpage img {
+    display:none
+    }
+}
+
+
+/*_____COLAPSING NAVBAR_____*/
+
+
+@media (max-width: 991px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+}
+
+
+/*_____WHO_____*/
+
+
+@media only screen and (max-width:991px)  {
+
+    #who h3, #who h4, #who .col-md-5 {
+        text-align:center;
+    }
+}
+
+
+/*_____SERVICES_____*/
+
+
+@media only screen and (max-width:991px)  {
+
+    #services  {
+        text-align:center;
+    }
+    
+    #services img {
+        padding:40px 0px 20px;
+    }
+}
+
+
+/*_____PROFILES_____*/
+
+
+@media only screen and (max-width:991px)  {
+    
+
+}
+
+@media only screen and (max-width:769px)  {
+    #profile img {
+        height:400px;
+    }
+}
+
+
+/*_____CLIENTS_____*/
+
+
+@media only screen and (max-width:769px)  {
+    
+    #profile img {
+        height:400px;
+    }   
+}
+
+
+/*_____BLOG_____*/
+
+
+@media only screen and (max-width:991px)  {
+    
+    #blog h5 {
+        text-align:center;
+    }
+    
+    #blog .col-md-6:first-child {
+        padding-right:0px !important;
+    }
+
+    #blog .col-md-6:nth-child(2) {
+        padding-left:0px !important;
+    }
+    
+    #blog .two p {
+        padding-top:60px;    
+    }
+    
+    #blog .three h6, #blog .four h6 {
+        padding-top:70px;
+    }
+    
+    #blog .five h6 {
+        position:relative;
+        top:100px;
+    }
+    
+    #blog .six h6 {
+        padding-top:30px;
+    }
+}
+
+
+/*_____CONTACT_____*/
+
+
+@media only screen and (max-width:991px)  {
+   
+    #contact #touch h3 {
+        position:relative;
+        top:70px;
+        text-align:center;
+    }  
+    
+    #contact #touch {
+        margin-top:100px;
+    }
+    
+    #contact h3 {
+        margin-top:40px;
+    }
+    
+    #contact input {
+        margin-top:10px;
+    }
+    
+    #contact .profile {
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width:600px)  {
+   
+    #contact button {
+        margin-left:100px;
+    }   
+}
+
+
+
+
+
+
+
+
